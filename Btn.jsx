@@ -14,3 +14,19 @@
       >
         Check It out!
       </Button>
+
+          <Button
+            variant="contained"
+            startIcon={<SaveIcon />}
+            sx={{
+              fontSize: "medium",
+              padding: "12px 24px",
+              borderRadius: "30px",
+              "&:hover": {
+                boxShadow: "0px 4px 4px rgba(0, 0, 255, 0.25)",
+              },
+            }}
+            // onClick={onSave}
+          >
+            Save
+          </Button>
