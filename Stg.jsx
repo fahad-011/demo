@@ -1,3 +1,5 @@
+// Stg.jsx
+
 import React, { useState } from "react";
 import ItemsDrawer from "./../NavigationDrawer/ItemsDrawer";
 import {
@@ -143,8 +145,6 @@ const Setting = () => {
               </Box>
             </Paper>
           </Paper>
-
-         
         </Box>
       </Container>
     </>
